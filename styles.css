@@ -1,0 +1,60 @@
+body {
+  background: url(images/Background.png) no-repeat center/cover;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: -70px;
+}
+
+.title-image {
+  width: 30%;
+  height: auto;
+}
+
+.character-names, .character-pictures, .vote-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.opponentA-Name, .opponentB-Name {
+  background: url(images/names-Background.png) no-repeat center/contain;
+  flex: 1;
+  text-align: center;
+  padding: 0;
+}
+
+.opponentA-Picture, .opponentB-Picture {
+  flex: 1;
+  margin-bottom: -150px;
+  padding: 0;
+}
+
+.matchup {
+  margin: 0;
+  justify-content: space-around;
+}
+
+
+button {
+  background: url('images/votebutton.png') no-repeat; /* Use the image as background */
+  background-size: contain; /* Cover the button with the background image */
+  color: transparent; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  text-transform: uppercase; /* Uppercase text */
+  font-size: xx-large
+}
+
+button:active {
+  background: url('images/votebuttonactive.png') no-repeat; /* Use the image as background */
+  background-size: contain; /* Cover the button with the background image */
+  color: transparent; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  text-transform: uppercase; /* Uppercase text */
+  font-size: xx-large
+}
